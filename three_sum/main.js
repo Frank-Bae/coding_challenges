@@ -18,7 +18,8 @@ function threeSum(array, target){
     let num2 = array[a + 1]
     let num3 = array[a + 2]
     if (num1 + num2 + num3 === target){
-      arr.push(num1, num2 , num3)
+      const newArr = [num1, num2, num3]
+      arr.push(newArr)
     }
   }
   return arr
